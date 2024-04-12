@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Adicionando posição relativa para posicionar a imagem */
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul li {
+    margin-bottom: 5px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+section {
+    flex: 1;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+.profile-picture {
+    position: absolute; /* Posição absoluta para sobrepor ao lado direito */
+    top: 20px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    width: 120px; /* Largura da imagem */
+    height: auto; /* Altura ajustável de acordo com a largura */
+    border-radius: 50px; /* Arredondando os cantos */
+    overflow: hidden; /* Para garantir que a imagem não ultrapasse os limites do contêiner */
+}
+
+.profile-picture img {
+    width: 100%; /* 100% da largura do contêiner */
+    height: auto; /* Altura ajustável de acordo com a largura */
+    border-radius: 10px; /* Arredondando os cantos */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    clear: both;
+}
